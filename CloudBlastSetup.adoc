@@ -37,6 +37,6 @@ Note: This guide assumes the user has set up their GCP account. Otherwise, the u
 
 `Step 4`: Create a GCP Virtual Machine (VM) running Ubuntu 18.04LTS
 
-image::img2.PNG[width="790"]
+image::img2.PNG[width="790", height="100"]
 
 
