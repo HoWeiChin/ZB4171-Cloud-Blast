@@ -13,7 +13,7 @@ ifdef::env-github[]
 :note-caption: :information_source:
 endif::[]
 
-By: `Ho Wei Chin` School: `NUS`
+By: `Ho Wei Chin, Tan Wei Qi, Soh Zi Quan, Jessica Low` School: `National Univeristy of Singapore`
 
 == Preface
 
@@ -31,8 +31,12 @@ image::img1.PNG[width="790"]
 
 == Introduction
 
-This documentation acts as a user guide to set up and install Blast on the Google Cloud Platform (GCP).
+This documentation serves as an user guide to set up and install Blast on the Google Cloud Platform (GCP).
 
-This documentation assumes the user has set up their GCP account. Otherwise, the user should look at section Preface to set up his or her GCP account.
+Note: This guide assumes the user has set up their GCP account. Otherwise, the user should look at section Preface to set up his or her GCP account.
 
-hello testing
+`Step 4`: Create a GCP Virtual Machine (VM) running Ubuntu 18.04LTS
+
+image::img2.PNG[width="790"]
+
+
