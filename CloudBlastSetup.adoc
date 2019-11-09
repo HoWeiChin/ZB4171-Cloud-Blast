@@ -67,5 +67,6 @@ image::img7.PNG[width="790"]
 
 Now run `docker run hello-world` to ensure correct installation of Docker
 
-'Upon successful installation': You should see this
+`Upon successful installation`: Your command shell should look something like this
+
 image::img5.PNG[width="790"]
