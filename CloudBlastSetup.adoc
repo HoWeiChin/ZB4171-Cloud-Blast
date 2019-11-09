@@ -67,6 +67,10 @@ image::img7.PNG[width="790"]
 
 Now run `docker run hello-world` to ensure correct installation of Docker
 
-`Upon successful installation`: Your command shell should look something like this
+**Upon successful installation:** Your command shell should look something like this
 
-image::img5.PNG[width="790"]
+image::img5.PNG[width="600"]
+
+**If you encounter the error:** run the command `sudo chmod 666 /var/run/docker.sock` after `sudo usermod -aG docker $USER` and try again.
+
+image::img6.PNG[width="790"]
