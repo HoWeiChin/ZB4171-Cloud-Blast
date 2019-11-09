@@ -15,6 +15,8 @@ endif::[]
 
 By: `Ho Wei Chin, Tan Wei Qi, Soh Zi Quan, Jessica Low` School: `National Univeristy of Singapore`
 
+This documentation serves as an user guide to set up and install Blast on the Google Cloud Platform (GCP).
+
 == Preface
 
 Go the following URL: `https://github.com/ncbi/blast_plus_docs#google-cloud-platform-setup` .
@@ -29,13 +31,11 @@ image::img1.PNG[width="790"]
 
 `Step 3`: Follow the instructions in that section to set up your trial GCP account.
 
-== Introduction
-
-This documentation serves as an user guide to set up and install Blast on the Google Cloud Platform (GCP).
+== Setting up Google Cloud Platform (GCP) Virtual Machine
 
 Note: This guide assumes the user has set up their GCP account. Otherwise, the user should look at section Preface to set up his or her GCP account.
 
-`Step 4`: Create a GCP Virtual Machine (VM) running Ubuntu 18.04LTS
+`Step 1`: Create a GCP Virtual Machine (VM) running Ubuntu 18.04LTS
 
 On the GCP welcome screen panel, click on "Computer Engine", followed by clicking on "VM instances".
 
@@ -51,9 +51,10 @@ image::img3.PNG[width="790", height="800"]
 
 If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found at this link here: `https://cloud.google.com/compute/docs/quickstart-linux`.
 
-`Step 5`: Accessing a GCP VM from a local machine
+`Step 2`: Accessing a GCP VM from a local machine
 
 Upon successful creation of the GCP VM, we must access it from out local computer via SSH. This is done by clicking on the "SSH" button under the "Connect" column.
 
 image::img4.PNG[width="790"]
 
+Now the command shell should be running and you are ready to proceed. **Remember to stop the VM to prevent incurring additional cost**
