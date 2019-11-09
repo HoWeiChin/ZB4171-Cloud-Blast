@@ -59,8 +59,8 @@ image::img4.PNG[width="790"]
 
 Now the command shell should be running and you are ready to proceed. **Remember to stop the VM by running the command `sudo shutdown -h now` to prevent incurring additional cost.** You can start the VM again by connecting through SSH.
 
-commands eg:
+== Using BLAST+ Docker Image
 
-1. `sudo hi`
+Docker has to be installed in our GCP VM as an application.
 
-2. `rm hi`
+image::img7.PNG[width="790"]
