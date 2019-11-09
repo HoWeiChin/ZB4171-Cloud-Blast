@@ -53,7 +53,7 @@ If you are met with any problems, detailed instructions for creating a GCP accou
 
 `Step 2`: Accessing a GCP VM from a local machine
 
-Upon successful creation of the GCP VM, we must access it from out local computer via SSH. This is done by clicking on the "SSH" button under the "Connect" column.
+Upon successful creation of the GCP VM, we must access it from our local computer via SSH. This is done by clicking on the "SSH" button under the "Connect" column.
 
 image::img4.PNG[width="790"]
 
@@ -75,7 +75,7 @@ image::img5.PNG[width="600"]
 
 image::img6.PNG[width="790"]
 
-`Step 2`: Import sequences and create a BLAST database
+`Step 2`: Import sequences and create a BLAST database.
 
 In this example, we will be using the following input data to demostrate a working blast server on cloud.
 
@@ -91,7 +91,7 @@ Your command shell should look like this after each line of code is executed.
 image::img8.1.PNG[width="790"]
 
 This will end with the command `Digest: sha256:80410592eadbc4155f4b9b42e6fabad90d5a23832d5d889cef94fa4f6680a781
-Status: Downloaded newer image for ncbi/blast:latest`to signify completion.
+Status: Downloaded newer image for ncbi/blast:latest` to signify completion.
 
 image::img8.2.PNG[width="790"]
 
