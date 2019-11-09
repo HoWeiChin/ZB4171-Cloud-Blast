@@ -78,7 +78,7 @@ Run the command `sudo chmod 666 /var/run/docker.sock` after `sudo usermod -aG do
 
 `Step 2`: Import sequences and create a BLAST database
 
-In this example, we will be using the following input data to demostrate a working blast server on cloud:
-1. Query - 1 sequence, 44 nucleotides, filse size 0.2KB
-2. Databse - 7 sequence
-2. Database - 7 seqencees, 922 nucleotides, filse size 1.7kb
+In this example, we will be using the following input data to demostrate a working blast server on cloud.
+
+- Query: 1 sequence, 44 nucleotides, filse size 0.2KB
+- Database: 7 seqencees, 922 nucleotides, filse size 1.7kb
