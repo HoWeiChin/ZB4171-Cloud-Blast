@@ -48,7 +48,7 @@ image::img2.PNG[width="350", height="350"]
 
 image::img3.PNG[width="750"]
 
-If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found [here](cloud.google.com/compute/docs/quickstart-linux).
+If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found at `https://cloud.google.com/compute/docs/quickstart-linux`.
 
 
 
