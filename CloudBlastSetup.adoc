@@ -58,3 +58,7 @@ Upon successful creation of the GCP VM, we must access it from out local compute
 image::img4.PNG[width="790"]
 
 Now the command shell should be running and you are ready to proceed. **Remember to stop the VM by running the command `sudo shutdown -h now` to prevent incurring additional cost.** You can start the VM again by connecting through SSH.
+
+commands eg:
+1. `sudo hi`
+2. `rm hi`
