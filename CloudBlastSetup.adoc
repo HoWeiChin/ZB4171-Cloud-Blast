@@ -76,7 +76,10 @@ image::img6.PNG[width="790"]
 
 Run the command `sudo chmod 666 /var/run/docker.sock` after `sudo usermod -aG docker $USER` and try again.
 
-`Step 2`: Import s
+`Step 2`: Import sequences and create a BLAST database
+
+In this example, we will be using the following input data to demostrate a working blast server on cloud.
 
 Input data
-* Qury
+1. Query - 1 sequence, 44 nucleotides, filse size 0.2KB
+2. Database - 7 seqencees, 922 nucleotides, filse size 1.7kb
