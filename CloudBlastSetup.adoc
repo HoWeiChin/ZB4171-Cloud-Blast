@@ -44,9 +44,12 @@ image::img2.PNG[width="350", height="350"]
 1. Click on the blue "CREATE" buton on the top bar.
 2. Fill up the sections with the parameters as shown in the image below, and an estimated cost will be displayed at the right side.
 (Note that creating a VM in the same region as storage can provide a better performance.)
+3. Finally, click on the blue "CREATE" button at the bottom, which will create and start the VM.
 
 image::img3.PNG[width="750"]
 
-3. Finally, click on the blue "CREATE" button at the bottom, which will create and start the VM.
+If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found [here](cloud.google.com/compute/docs/quickstart-linux).
+
+
 
 
