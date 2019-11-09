@@ -19,7 +19,20 @@ This documentation serves as an user guide to set up and install Blast on the Go
 
 == Preface
 
+=== Brief Introduction
+
+==== NCBI Blast
+Blast is a bioinformatics tool used for comparing primary biological sequence information, such as the amino acid sequences of proteins, or the nucleotides of DNA/ RNA sequences.It is capable of finding similar regions between different sequences which hence provide insights into the evolutionary and functional relationships between sequences or the identity of a sequence in a particular gene family. 
+
+==== Docker
+Docker on the other hand, is a computing tool primarily used for creating, running and deploying applications via containers. Containerisation makes it convenient for the packaging of the components and dependencies that an application requires into a single package. It is an operating system level virtualisation, where containers run user space on top of the operating system, which makes it lightweight, portable and fast.
+
+==== Google cloud computing 
+Last but not least, cloud computing allows the use of data storage and computing power without direct and active management by individuals. The "cloud" allows data center to operate like the Internet, where computing resources and data could be shared virtually in a convenient and scalable manner. The Google Cloud Platform is one of the many could computing platforms, where management tools and several cloud services like machine learning, data analytics, computing and data storage are provided.
+
 For reference, go the following URL: `https://github.com/ncbi/blast_plus_docs#google-cloud-platform-setup` .
+
+=== Setting up Google Cloud platform/ account
 
 `Step 1`: Under the table of contents, select “Google Cloud Platform Setup” as shown:
 
