@@ -46,10 +46,14 @@ image::img2.PNG[width="350", height="350"]
 (Note that creating a VM in the same region as storage can provide a better performance.)
 3. Finally, click on the blue "CREATE" button at the bottom, which will create and start the VM.
 
-image::img3.PNG[width="750"]
-
-If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found at `https://cloud.google.com/compute/docs/quickstart-linux`.
+image::img3.PNG[width="790", height="800"]
 
 
+If you are met with any problems, detailed instructions for creating a GCP account and lauching VM can be found at this link here: `https://cloud.google.com/compute/docs/quickstart-linux`.
 
+`Step 5`: Accessing a GCP VM from a local machine
+
+Upon successful creation of the GCP VM, we must access it from out local computer via SSH. This is done byt clicking on the "SSH" button under the "Connect" column.
+
+image::img4.PNG[width="790"]
 
