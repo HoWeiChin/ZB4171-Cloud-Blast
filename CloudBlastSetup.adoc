@@ -37,6 +37,16 @@ Note: This guide assumes the user has set up their GCP account. Otherwise, the u
 
 `Step 4`: Create a GCP Virtual Machine (VM) running Ubuntu 18.04LTS
 
+On the GCP welcome screen panel, click on "Computer Engine", followed by clicking on "VM instances".
+
 image::img2.PNG[width="350", height="350"]
+
+1. Click on the blue "CREATE" buton on the top bar.
+2. Fill up the sections with the parameters as shown in the image below, and an estimated cost will be displayed at the right side.
+(Note that creating a VM in the same region as storage can provide a better performance.)
+
+image::img3.PNG[width="750"]
+
+3. Finally, click on the blue "CREATE" button at the bottom, which will create and start the VM.
 
 
