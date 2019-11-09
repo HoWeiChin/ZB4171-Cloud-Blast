@@ -53,7 +53,7 @@ If you are met with any problems, detailed instructions for creating a GCP accou
 
 `Step 5`: Accessing a GCP VM from a local machine
 
-Upon successful creation of the GCP VM, we must access it from out local computer via SSH. This is done byt clicking on the "SSH" button under the "Connect" column.
+Upon successful creation of the GCP VM, we must access it from out local computer via SSH. This is done by clicking on the "SSH" button under the "Connect" column.
 
 image::img4.PNG[width="790"]
 
