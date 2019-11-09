@@ -19,7 +19,7 @@ This documentation serves as an user guide to set up and install Blast on the Go
 
 == Preface
 
-Go the following URL: `https://github.com/ncbi/blast_plus_docs#google-cloud-platform-setup` .
+For reference, go the following URL: `https://github.com/ncbi/blast_plus_docs#google-cloud-platform-setup` .
 
 `Step 1`: Under the table of contents, select “Google Cloud Platform Setup” as shown:
 
