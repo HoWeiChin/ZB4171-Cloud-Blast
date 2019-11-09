@@ -82,3 +82,26 @@ In this example, we will be using the following input data to demostrate a worki
 
 - Query: 1 sequence, 44 nucleotides, filse size 0.2KB
 - Database: 7 seqencees, 922 nucleotides, filse size 1.7kb
+
+1. Fetching query and database sequences, followed by creating a custom BLAST database.
+image::img8.PNG[width="790"]
+
+Your command shell should look like this after each line of code is executed.
+
+image::img8.1.PNG[width="790"]
+This will end with `Digest: sha256:80410592eadbc4155f4b9b42e6fabad90d5a23832d5d889cef94fa4f6680a781
+Status: Downloaded newer image for ncbi/blast:latest`
+
+image::img8.2.PNG[width="790"]
+
+2. Verification of the customised BLAST database created above. These commands will display the accessions, sequence length, and common name of the sequences in the database.
+
+image::img9.PNG[width="790"]
+
+Your command shell should look like this after running the code.
+
+image::image9.1.PNG[width="790"]
+
+Alternatively, you can download performatted BLAST databases from Google Cloud Bucket. These are the BLAST databases available for download.
+
+image::img10.PNG[width="790"]
