@@ -64,3 +64,8 @@ Now the command shell should be running and you are ready to proceed. **Remember
 Docker has to be installed in our GCP VM as an application.
 
 image::img7.PNG[width="790"]
+
+Now run `docker run hello-world` to ensure correct installation of Docker
+
+'Upon successful installation': You should see this
+image::img5.PNG[width="790"]
