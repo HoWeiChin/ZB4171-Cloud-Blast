@@ -144,12 +144,15 @@ Three analysis will thus be carried out :
 2) Analysis on samples 1 to 5
 3) Analysis on all 28 samples
 
-`Step 1`: Create the directories for analysis
+`Step 1`: Prepare directories and import sequences for processing
 
-Run the following command:
-cd ; mkdir -p blastdb queries fasta results blastdb_custom 
+image::img15.PNG[width="790"]
 
 Note: if you have run the previous commands to implement BLAST+ Docker, these directories would already be created.
+
+After running these commands, you should obtain these files:
+
+image::img13.PNG[width="790"]
 
 `Step 2`: Import sequences for processing
 
