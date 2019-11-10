@@ -137,9 +137,21 @@ Remember to stop our GCP VM to prevent incurring additional cost. This can be do
 
 == BLAST+ Docker Image at a production level
 
-This section demonstrates the scalability of BLAST+ Docker image. Inputs of different sizes are tested with BLAST+ Docker Image to analyse the time required to download the nucleotide collection database. The input file used here contains 28 samples (multi-fasta files) with de novo aligned contigs from this [research paper](https://www.ncbi.nlm.nih.gov/pubmed/31040829).
+This section demonstrates the scalability of BLAST+ Docker image. Inputs of different sizes are tested with BLAST+ Docker Image to analyse the time required to download the nucleotide collection database. The input file used here contains 28 samples (multi-fasta files) with de novo aligned contigs from this research: https://www.ncbi.nlm.nih.gov/pubmed/31040829 
 
 Three analysis will thus be carried out :
 1) Analysis on only sample 1
 2) Analysis on samples 1 to 5
 3) Analysis on all 28 samples
+
+`Step 1`: Create the directories for analysis
+
+Run the following command:
+cd ; mkdir -p blastdb queries fasta results blastdb_custom 
+
+Note: if you have run the previous commands to implement BLAST+ Docker, these directories would already be created.
+
+`Step 2`: Import sequences for processing
+
+
+
