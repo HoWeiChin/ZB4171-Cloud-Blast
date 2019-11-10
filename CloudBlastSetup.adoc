@@ -156,7 +156,34 @@ image::img13.PNG[width="790"]
 
 image::img14.PNG[width="790"]
 
-`Step 2`: Import sequences for processing
+`Step 2`: Prepare input query files for the 3 respective analysis
 
+Here, we prepare three input query files: 1 for only sample 1, 1 for samples 1 to 5 and the last one for all 28 samples. Thereafter, we copy these input query file into our query directory as well.
+
+image::img16.PNG[width="790"]
+
+`Step 3`: Download nt_v5 BLAST database from GCP
+
+To look at the BLAST database available for download from GCP, run this command:
+
+image::img17.PNG[width="790"]
+
+Thereafter, run this command to download the nt_v5 BLAST database from GCP:
+
+image::img18.PNG[width="790"]
+
+The database will be stored in the directory blastdb and the data will look somewhat like the image below (but much more when fully complete):
+
+image::img21.PNG[width="790"]
+
+To check directory size of containing nt_v5 and the three query input files, run this command:
+
+image::img19.PNG[width="790"]
+
+`Step 4`: Running Blast for the three input query files
+
+The following codes runs blast for the three different input query files:
+
+image::img20.PNG[width="790"]
 
 
