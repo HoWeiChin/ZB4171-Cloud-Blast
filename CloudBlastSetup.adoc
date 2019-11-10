@@ -154,6 +154,8 @@ After running these commands, you should obtain these files:
 
 image::img13.PNG[width="790"]
 
+image::img14.PNG[width="790"]
+
 `Step 2`: Import sequences for processing
 
 
