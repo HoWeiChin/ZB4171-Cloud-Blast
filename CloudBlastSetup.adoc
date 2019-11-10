@@ -134,3 +134,8 @@ image::img11.1.PNG[width="500"]
 `Step 4`: Stop the GCP instance
 
 Remember to stop our GCP VM to prevent incurring additional cost. This can be down by selecting the "stop" button under the dropdown button beside the "Connect" column.
+
+== BLAST+ Docker Image at a production level
+
+This section demonstrates the scalability of BLAST+ Docker image. Inputs of different sizes are tested with BLAST+ Docker Image to analyse the time required to download the nucleotide collection database.
+
